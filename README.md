@@ -14,3 +14,10 @@
         USR namespace—User names and identifiers
         chroot() —Controls the location of the file system root
         cgroups—Resource protection
+
+
+# Docker compose!
+### Docker-compose is intended for complex apps running on multiple containers.
+
+### docker-compose start -> start a existing service container.
+### docker-compose stop  -> stop command -t, --timeout
