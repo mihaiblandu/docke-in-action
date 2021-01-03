@@ -16,3 +16,17 @@ services:
             - VIRTUAL_HOST=proxy
         ports:
             - "8080"
+    web-app1:
+        build:
+          context: ./flaskapp
+        environment:
+            - VIRTUAL_HOST=proxy
+        ports:
+            - "5000"
+    java-app:
+        build:
+          context: ./java
+        environment:
+            - VIRTUAL_HOST=proxy
+        ports:
+            - "8080"
