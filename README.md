@@ -37,3 +37,6 @@
         Forces running containers to stop by sending a SIGKILL signal.
 ### docker­-co­mpose bundle
         A Dockerfile can be built into an image, and containers can be created from that image. Similarly, a docker­-co­mpo­se.yml can be built into a distri­buted applic­ation bundle
+### docker compose up -> 
+        -f, --file, -d, --detach, --no-build,--forc­e-r­ecreate,--scale SERVIC­E=NUM
+

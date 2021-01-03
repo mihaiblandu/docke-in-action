@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+    nginix-loadbalancer:
+        image: jwilder/nginx-proxy:latest
+        volumes:
+            - //var/run/docker.sock:/tmp/docker.sock:ro
+        environment:
+            - DEFAULT_HOST=proxy
+        ports:
+            - "80:80"   
+    web-app:
+        build:
+          context: ./nodeapp
+        environment:
+            - VIRTUAL_HOST=proxy
+        ports:
+            - "8080"
