@@ -19,5 +19,5 @@
 # Docker compose!
 ### Docker-compose is intended for complex apps running on multiple containers.
 
-### docker-compose start -> start a existing service container.
-### docker-compose stop  -> stop command -t, --timeout
+                docker-compose start -> start a existing service container.
+                docker-compose stop  -> stop command -t, --timeout
