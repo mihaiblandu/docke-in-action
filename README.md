@@ -26,14 +26,14 @@
                 docker-compose restart -> restart all containers/ or specific container
                 docker-compose logs -> logs of all containers/ or specific container
 
-## docker­-co­mpose version
+### docker­-co­mpose version
         Prints the version of docker­-co­mpose.
-## docker­-co­mpose push
+### docker­-co­mpose push
         Pushes images for services to their respective regist­ry/­rep­ository
-## docker­-co­mpose config
+### docker­-co­mpose config
         Validate and view the Compose file
         
-## docker­-co­mpose kill
+### docker­-co­mpose kill
         Forces running containers to stop by sending a SIGKILL signal.
-## docker­-co­mpose bundle
+### docker­-co­mpose bundle
         A Dockerfile can be built into an image, and containers can be created from that image. Similarly, a docker­-co­mpo­se.yml can be built into a distri­buted applic­ation bundle
