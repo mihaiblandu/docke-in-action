@@ -9,14 +9,14 @@ services:
             - DEFAULT_HOST=proxy
         ports:
             - "80:80"   
-    web-app:
+    node-app:
         build:
           context: ./nodeapp
         environment:
             - VIRTUAL_HOST=proxy
         ports:
             - "8080"
-    web-app1:
+    flask-app:
         build:
           context: ./flaskapp
         environment:
