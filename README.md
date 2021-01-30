@@ -40,3 +40,14 @@
 ### docker compose up -> 
         -f, --file, -d, --detach, --no-build,--forc­e-r­ecreate,--scale SERVIC­E=NUM
 
+
+#       Docker Swarm
+![alt text](docker-swarm.jpg)
+
+- When it comes to clustering, the two giants,
+Kubernetes and Docker Swarm, are going head to head. It is all over the news, and here at Tuleap we have made our choice! But let’s back up a bit first!
+
+        Init command
+                docker swarm init --advertise-addr 127.0.0.1
+        Join command
+                docker swarm join --token <token> <IP>:2377
